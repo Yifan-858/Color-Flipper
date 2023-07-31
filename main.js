@@ -20,6 +20,7 @@ const yearColorName = [
 const btn = document.getElementById("btn");
 const colorName = document.querySelector(".colorName");
 
+// Get a random number between zero and the number of colors in the 'yearColorCode' array 
 const getRandomColorIndex = () => Math.floor(Math.random() * yearColorCode.length);
 
 const convertRgbToHex = (rgbValue) => {
